@@ -36,6 +36,12 @@ h6 {
     font-weight: 700;
 }
 
+.centered-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -259,6 +265,24 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
+
+.btn-outline-alt {
+    margin-top: 15px;
+    border: solid 2px #2c3e50;
+    font-size: 20px;
+    color: #2c3e50;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-alt:hover,
+.btn-outline-alt:focus,
+.btn-outline-alt:active,
+.btn-outline-alt.active {
+    border: solid 2px #2c3e50;
     color: #18bc9c;
     background: #fff;
 }
